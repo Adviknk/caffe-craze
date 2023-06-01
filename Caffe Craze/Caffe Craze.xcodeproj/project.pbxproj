@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900151E425AE693D00C4E451 /* SquareInAppPaymentsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900151E225AE693200C4E451 /* SquareInAppPaymentsSDK.framework */; };
+		900151E525AE693D00C4E451 /* SquareInAppPaymentsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 900151E225AE693200C4E451 /* SquareInAppPaymentsSDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		905DEB4024B6241000CBDDA3 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905DEB3F24B6241000CBDDA3 /* CustomLabel.swift */; };
+		907D0442248EB03500BFAD6F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907D0441248EB03500BFAD6F /* CustomButton.swift */; };
+		907F59B424B95F84006E283D /* CustomButtonCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907F59B324B95F83006E283D /* CustomButtonCC.swift */; };
+		907F59B624B95FA3006E283D /* CustomLabelCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907F59B524B95FA3006E283D /* CustomLabelCC.swift */; };
+		907F59B824BF3F73006E283D /* ChargeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907F59B724BF3F73006E283D /* ChargeApi.swift */; };
+		90D810CC2482A9A80072AD79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D810CB2482A9A80072AD79 /* AppDelegate.swift */; };
+		90D810CE2482A9A80072AD79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D810CD2482A9A80072AD79 /* SceneDelegate.swift */; };
+		90D810D02482A9A80072AD79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D810CF2482A9A80072AD79 /* ViewController.swift */; };
+		90D810D32482A9A80072AD79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D810D12482A9A80072AD79 /* Main.storyboard */; };
+		90D810D52482A9B40072AD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D810D42482A9B40072AD79 /* Assets.xcassets */; };
+		90D810D82482A9B40072AD79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D810D62482A9B40072AD79 /* LaunchScreen.storyboard */; };
+		90D810E32482A9B50072AD79 /* Caffe_CrazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D810E22482A9B50072AD79 /* Caffe_CrazeTests.swift */; };
+		90D810EE2482A9B50072AD79 /* Caffe_CrazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D810ED2482A9B50072AD79 /* Caffe_CrazeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90D810DF2482A9B40072AD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D810C02482A9A80072AD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D810C72482A9A80072AD79;
+			remoteInfo = "Caffe Craze";
+		};
+		90D810EA2482A9B50072AD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D810C02482A9A80072AD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D810C72482A9A80072AD79;
+			remoteInfo = "Caffe Craze";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		905DEB4724B7A9A700CBDDA3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				900151E525AE693D00C4E451 /* SquareInAppPaymentsSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		900151E225AE693200C4E451 /* SquareInAppPaymentsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SquareInAppPaymentsSDK.framework; sourceTree = "<group>"; };
+		905DEB3F24B6241000CBDDA3 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		907D0441248EB03500BFAD6F /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = "../../Carbon Effect/Carbon Effect/CustomButton.swift"; sourceTree = "<group>"; };
+		907D0444249287DC00BFAD6F /* SquareInAppPaymentsSDKs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SquareInAppPaymentsSDKs.framework; path = ../SquareInAppPaymentsSDKs.framework; sourceTree = "<group>"; };
+		907F59B324B95F83006E283D /* CustomButtonCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonCC.swift; sourceTree = "<group>"; };
+		907F59B524B95FA3006E283D /* CustomLabelCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelCC.swift; sourceTree = "<group>"; };
+		907F59B724BF3F73006E283D /* ChargeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeApi.swift; sourceTree = "<group>"; };
+		90D810C82482A9A80072AD79 /* Caffe Craze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caffe Craze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D810CB2482A9A80072AD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90D810CD2482A9A80072AD79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90D810CF2482A9A80072AD79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90D810D22482A9A80072AD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90D810D42482A9B40072AD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90D810D72482A9B40072AD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90D810D92482A9B40072AD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D810DE2482A9B40072AD79 /* Caffe CrazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caffe CrazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D810E22482A9B50072AD79 /* Caffe_CrazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caffe_CrazeTests.swift; sourceTree = "<group>"; };
+		90D810E42482A9B50072AD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D810E92482A9B50072AD79 /* Caffe CrazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caffe CrazeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D810ED2482A9B50072AD79 /* Caffe_CrazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caffe_CrazeUITests.swift; sourceTree = "<group>"; };
+		90D810EF2482A9B50072AD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90D810C52482A9A80072AD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900151E425AE693D00C4E451 /* SquareInAppPaymentsSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D810DB2482A9B40072AD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D810E62482A9B50072AD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		907D0443249287DB00BFAD6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				907D0444249287DC00BFAD6F /* SquareInAppPaymentsSDKs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90D810BF2482A9A80072AD79 = {
+			isa = PBXGroup;
+			children = (
+				900151E225AE693200C4E451 /* SquareInAppPaymentsSDK.framework */,
+				90D810CA2482A9A80072AD79 /* Caffe Craze */,
+				90D810E12482A9B40072AD79 /* Caffe CrazeTests */,
+				90D810EC2482A9B50072AD79 /* Caffe CrazeUITests */,
+				90D810C92482A9A80072AD79 /* Products */,
+				907D0443249287DB00BFAD6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90D810C92482A9A80072AD79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90D810C82482A9A80072AD79 /* Caffe Craze.app */,
+				90D810DE2482A9B40072AD79 /* Caffe CrazeTests.xctest */,
+				90D810E92482A9B50072AD79 /* Caffe CrazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90D810CA2482A9A80072AD79 /* Caffe Craze */ = {
+			isa = PBXGroup;
+			children = (
+				90D810CB2482A9A80072AD79 /* AppDelegate.swift */,
+				907F59B724BF3F73006E283D /* ChargeApi.swift */,
+				90D810CD2482A9A80072AD79 /* SceneDelegate.swift */,
+				907F59B324B95F83006E283D /* CustomButtonCC.swift */,
+				907D0441248EB03500BFAD6F /* CustomButton.swift */,
+				907F59B524B95FA3006E283D /* CustomLabelCC.swift */,
+				905DEB3F24B6241000CBDDA3 /* CustomLabel.swift */,
+				90D810CF2482A9A80072AD79 /* ViewController.swift */,
+				90D810D12482A9A80072AD79 /* Main.storyboard */,
+				90D810D42482A9B40072AD79 /* Assets.xcassets */,
+				90D810D62482A9B40072AD79 /* LaunchScreen.storyboard */,
+				90D810D92482A9B40072AD79 /* Info.plist */,
+			);
+			path = "Caffe Craze";
+			sourceTree = "<group>";
+		};
+		90D810E12482A9B40072AD79 /* Caffe CrazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				90D810E22482A9B50072AD79 /* Caffe_CrazeTests.swift */,
+				90D810E42482A9B50072AD79 /* Info.plist */,
+			);
+			path = "Caffe CrazeTests";
+			sourceTree = "<group>";
+		};
+		90D810EC2482A9B50072AD79 /* Caffe CrazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90D810ED2482A9B50072AD79 /* Caffe_CrazeUITests.swift */,
+				90D810EF2482A9B50072AD79 /* Info.plist */,
+			);
+			path = "Caffe CrazeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90D810C72482A9A80072AD79 /* Caffe Craze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D810F22482A9B50072AD79 /* Build configuration list for PBXNativeTarget "Caffe Craze" */;
+			buildPhases = (
+				90D810C42482A9A80072AD79 /* Sources */,
+				90D810C52482A9A80072AD79 /* Frameworks */,
+				90D810C62482A9A80072AD79 /* Resources */,
+				905DEB4724B7A9A700CBDDA3 /* Embed Frameworks */,
+				905DEB4824B7A9AC00CBDDA3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Caffe Craze";
+			productName = "Caffe Craze";
+			productReference = 90D810C82482A9A80072AD79 /* Caffe Craze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90D810DD2482A9B40072AD79 /* Caffe CrazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D810F52482A9B50072AD79 /* Build configuration list for PBXNativeTarget "Caffe CrazeTests" */;
+			buildPhases = (
+				90D810DA2482A9B40072AD79 /* Sources */,
+				90D810DB2482A9B40072AD79 /* Frameworks */,
+				90D810DC2482A9B40072AD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D810E02482A9B40072AD79 /* PBXTargetDependency */,
+			);
+			name = "Caffe CrazeTests";
+			productName = "Caffe CrazeTests";
+			productReference = 90D810DE2482A9B40072AD79 /* Caffe CrazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90D810E82482A9B50072AD79 /* Caffe CrazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D810F82482A9B50072AD79 /* Build configuration list for PBXNativeTarget "Caffe CrazeUITests" */;
+			buildPhases = (
+				90D810E52482A9B50072AD79 /* Sources */,
+				90D810E62482A9B50072AD79 /* Frameworks */,
+				90D810E72482A9B50072AD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D810EB2482A9B50072AD79 /* PBXTargetDependency */,
+			);
+			name = "Caffe CrazeUITests";
+			productName = "Caffe CrazeUITests";
+			productReference = 90D810E92482A9B50072AD79 /* Caffe CrazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90D810C02482A9A80072AD79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Advik Nakirikanti";
+				TargetAttributes = {
+					90D810C72482A9A80072AD79 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					90D810DD2482A9B40072AD79 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 90D810C72482A9A80072AD79;
+					};
+					90D810E82482A9B50072AD79 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 90D810C72482A9A80072AD79;
+					};
+				};
+			};
+			buildConfigurationList = 90D810C32482A9A80072AD79 /* Build configuration list for PBXProject "Caffe Craze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90D810BF2482A9A80072AD79;
+			productRefGroup = 90D810C92482A9A80072AD79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90D810C72482A9A80072AD79 /* Caffe Craze */,
+				90D810DD2482A9B40072AD79 /* Caffe CrazeTests */,
+				90D810E82482A9B50072AD79 /* Caffe CrazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90D810C62482A9A80072AD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D810D82482A9B40072AD79 /* LaunchScreen.storyboard in Resources */,
+				90D810D52482A9B40072AD79 /* Assets.xcassets in Resources */,
+				90D810D32482A9A80072AD79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D810DC2482A9B40072AD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D810E72482A9B50072AD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		905DEB4824B7A9AC00CBDDA3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FRAMEWORKS=\"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\n\"${FRAMEWORKS}/SquareInAppPaymentsSDK.framework/setup\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90D810C42482A9A80072AD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D810D02482A9A80072AD79 /* ViewController.swift in Sources */,
+				905DEB4024B6241000CBDDA3 /* CustomLabel.swift in Sources */,
+				907F59B424B95F84006E283D /* CustomButtonCC.swift in Sources */,
+				90D810CC2482A9A80072AD79 /* AppDelegate.swift in Sources */,
+				90D810CE2482A9A80072AD79 /* SceneDelegate.swift in Sources */,
+				907D0442248EB03500BFAD6F /* CustomButton.swift in Sources */,
+				907F59B824BF3F73006E283D /* ChargeApi.swift in Sources */,
+				907F59B624B95FA3006E283D /* CustomLabelCC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D810DA2482A9B40072AD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D810E32482A9B50072AD79 /* Caffe_CrazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D810E52482A9B50072AD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D810EE2482A9B50072AD79 /* Caffe_CrazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90D810E02482A9B40072AD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D810C72482A9A80072AD79 /* Caffe Craze */;
+			targetProxy = 90D810DF2482A9B40072AD79 /* PBXContainerItemProxy */;
+		};
+		90D810EB2482A9B50072AD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D810C72482A9A80072AD79 /* Caffe Craze */;
+			targetProxy = 90D810EA2482A9B50072AD79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90D810D12482A9A80072AD79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D810D22482A9A80072AD79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90D810D62482A9B40072AD79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D810D72482A9B40072AD79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90D810F02482A9B50072AD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90D810F12482A9B50072AD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D810F32482A9B50072AD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G86ZU8JKKV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Caffe Craze/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvikNakirikanti.CaffeCraze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		90D810F42482A9B50072AD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G86ZU8JKKV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Caffe Craze/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvikNakirikanti.CaffeCraze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+		90D810F62482A9B50072AD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G86ZU8JKKV;
+				INFOPLIST_FILE = "Caffe CrazeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AdvikNakirikanti.Caffe-CrazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caffe Craze.app/Caffe Craze";
+			};
+			name = Debug;
+		};
+		90D810F72482A9B50072AD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G86ZU8JKKV;
+				INFOPLIST_FILE = "Caffe CrazeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AdvikNakirikanti.Caffe-CrazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caffe Craze.app/Caffe Craze";
+			};
+			name = Release;
+		};
+		90D810F92482A9B50072AD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G86ZU8JKKV;
+				INFOPLIST_FILE = "Caffe CrazeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AdvikNakirikanti.Caffe-CrazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Caffe Craze";
+			};
+			name = Debug;
+		};
+		90D810FA2482A9B50072AD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G86ZU8JKKV;
+				INFOPLIST_FILE = "Caffe CrazeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AdvikNakirikanti.Caffe-CrazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Caffe Craze";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90D810C32482A9A80072AD79 /* Build configuration list for PBXProject "Caffe Craze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D810F02482A9B50072AD79 /* Debug */,
+				90D810F12482A9B50072AD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D810F22482A9B50072AD79 /* Build configuration list for PBXNativeTarget "Caffe Craze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D810F32482A9B50072AD79 /* Debug */,
+				90D810F42482A9B50072AD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D810F52482A9B50072AD79 /* Build configuration list for PBXNativeTarget "Caffe CrazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D810F62482A9B50072AD79 /* Debug */,
+				90D810F72482A9B50072AD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D810F82482A9B50072AD79 /* Build configuration list for PBXNativeTarget "Caffe CrazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D810F92482A9B50072AD79 /* Debug */,
+				90D810FA2482A9B50072AD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90D810C02482A9A80072AD79 /* Project object */;
+}
